@@ -1,0 +1,38 @@
+header {
+    padding: 30px;
+    font-family: var(--cambria);
+    color: var(--dark-blue);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: flex-center;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 30px;
+    font-style: var(--italic);
+}
+
+.header nav {
+    margin-right: 50px;
+    float: right;
+    font-size: 17px;
+}
+
+a {
+    background-color: var(--dark-blue);
+    color: var(--aqua); 
+    border-radius: 5px;
+    padding: 7px 15px 10px 20px;
+}
+
+button {
+    background-color: var(--aqua);
+    border: none;
+    padding: 5px 5px 10px 5px;
+    cursor: pointer;
+}
+
+.bigger-emoji {
+    font-size: 2em;
+}
