@@ -1,3 +1,4 @@
+/*css for header*/
 header {
     padding: 30px;
     font-family: var(--cambria);
@@ -35,4 +36,41 @@ button {
 
 .bigger-emoji {
     font-size: 2em;
+}
+
+/*css for main*/
+
+/*css for footer*/
+footer {
+    margin: 0 auto;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    padding-top: 25px; 
+    padding-bottom: 50px;  
+    background-color: var(--aqua);
+}
+
+footer h5 {
+    color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px 10px 5px;
+}
+
+.panel-footer ul li {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+.panel-footer ul li a {
+    color: var(--dark-blue);
+    background-color: var(--aqua);
+    border: none;
+    margin: 0;
+    padding: 10px 0;
 }
