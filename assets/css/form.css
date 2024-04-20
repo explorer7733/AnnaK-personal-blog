@@ -1,0 +1,32 @@
+/*CSS for header*/
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;  
+}
+
+button {
+    background-color: var(--aqua);
+    border: none; 
+    cursor: pointer;
+    padding: 5px 20px 10px 5px;
+}
+
+/*CSS for mainNEEDS TO CHANGE*/
+.form-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.intro-panel {
+     border: none;
+     display:block;
+}
+
+.form {
+    border: none;
+    display: block;
+}

@@ -13,8 +13,14 @@
     --italic: italic;
 }
 
+/*CSS for body*/
 body {
     background-color: var(--aqua);
+}
+
+/*CSS for emoji*/
+.bigger-emoji {
+    font-size: 2em;
 }
 
 /*Responsive design*/

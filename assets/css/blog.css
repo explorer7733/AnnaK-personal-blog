@@ -1,4 +1,4 @@
-/*css for header*/
+/*CSS for header*/
 header {
     padding: 30px;
     font-family: var(--cambria);
@@ -34,13 +34,9 @@ button {
     cursor: pointer;
 }
 
-.bigger-emoji {
-    font-size: 2em;
-}
+/*CSS for main*/
 
-/*css for main*/
-
-/*css for footer*/
+/*CSS for footer*/
 footer {
     margin: 0 auto;
     bottom: 0;
