@@ -14,18 +14,24 @@
             <button id="toggle"><span class="bigger-emoji">📷</span></button>
         </header>
         
-        <main class="form-page">
-            <div class="intro-panel">
+        <main class="container">
+            <div class="intro-container">
                 <h1><span>AK's Street Photography Blog</span></h1>
-                <!--<img src="./assets/20230320_184054.jpg" alt="Ponte Vecchio bridge in Florence at night">-->
+                <img src="./assets/20230320_184054.jpg" 
+                alt="Ponte Vecchio bridge in Florence at night">
             </div>
             
-            <div class="form">
+            <div class="form-container">
                 <h2>What's on your mind?</h2>
-
-            </div>
-            
-            
+                    <label for="username">Username:</label>
+                    <input id="username" type="text">
+                    <label for="title">Title:</label>
+                    <input id="title" type="text">
+                    <label for="content">Content:</label>
+                    <input id="content" type="text" rows="5"> 
+                    
+                    <button class="submit-button" type="submit"><span>Submit</span></button>
+            </div>  
         </main>        
         
         <script src="./assets/js/logic.js"></script>

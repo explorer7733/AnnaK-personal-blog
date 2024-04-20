@@ -14,19 +14,59 @@ button {
     padding: 5px 20px 10px 5px;
 }
 
-/*CSS for mainNEEDS TO CHANGE*/
-.form-page {
+/*CSS for main*/
+.container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
-.intro-panel {
-     border: none;
-     display:block;
+/*CSS for intro-container*/
+.intro-container {
+    flex: 1;
 }
 
-.form {
-    border: none;
-    display: block;
+.intro-container h1 {
+    display: inline-block;
+    font-size: 30px;
+    font-style: var(--italic);
+    margin-left: 100px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+/*CSS for form-container*/
+.form-container {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.form-container h2 {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--dark-blue);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    background-color: var(--dark-blue);
+    color: var(--aqua);
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
 }
