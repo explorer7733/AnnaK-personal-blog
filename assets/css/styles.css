@@ -34,6 +34,9 @@ body {
     border: 2px solid var(--aqua)
 }
 
+.dark-mode footer h5 {
+    color: #53EFE9;
+}
 
 /*CSS for emoji*/
 .bigger-emoji {
@@ -43,7 +46,8 @@ body {
 /*Responsive design*/
 @media screen and (max-width: 768px) {
     header,
-    nav {
+    nav,
+    main {
         flex-direction: column;
     }
 }

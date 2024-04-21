@@ -2,5 +2,7 @@
 
 document.addEventListener('click', function() {
     let toggleEmojie = document.getElementById('toggle');
-    document.body.classList.toggle('dark-mode', 'dark-mode .post');
+    document.body.classList.toggle('dark-mode', 'dark-mode .post', 'dark-mode footer h5');
 });
+
+

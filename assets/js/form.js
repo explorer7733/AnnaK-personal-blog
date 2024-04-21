@@ -18,17 +18,14 @@ submitButton.addEventListener('click', function(event) {
     let completedForm = document.querySelector(".form-container");
 
     if (userName === '' || title === '' || content === '') {
-       alert('Please complete the form')
+       alert('Please complete the form');
         
     } else {
         completedForm.textContent = 'Submitted';
+        
+        let blogPost = {userName, title, content}
+        savedBlogPost(blogPost)
+        window.location = 'blog.html'
     }
-
-    let blogPost = {userName, title, content}
-
-    savedBlogPost(blogPost)
-    
-    window.location = 'blog.html'
-
 });
 
