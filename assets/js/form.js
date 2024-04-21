@@ -2,6 +2,12 @@
 
 const submitButton = document.querySelector('.submit-button');
 
+function savedBlogPost (blogPost) {
+    let existingBlogs = JSON.parse(localStorage.getItem('blogPost')) || []
+    existingBlogs.push(blogPost);
+    localStorage.setItem('blogPost', JSON.stringify(existingBlogs));
+}
+
 submitButton.addEventListener('click', function(event) {
     event.preventDefault();
 
@@ -12,19 +18,17 @@ submitButton.addEventListener('click', function(event) {
     let completedForm = document.querySelector(".form-container");
 
     if (userName === '' || title === '' || content === '') {
-        completedForm.textContent = 'Please complete the form';
-        /*reload works but message doesn't present
-        window.location.reload();*/
+       alert('Please complete the form')
+        
     } else {
         completedForm.textContent = 'Submitted';
     }
 
-    /*JS function for text input
-    function completedForm (event) {
-        userName.addEventListener('input', completedForm);
-        title.addEventListener('input', completedForm);
-        content.addEventListener('input', completedForm);
-    }*/
+    let blogPost = {userName, title, content}
 
+    savedBlogPost(blogPost)
+    
+    window.location = 'blog.html'
 
 });
+
