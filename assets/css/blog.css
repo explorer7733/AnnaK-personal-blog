@@ -1,3 +1,7 @@
+body {
+    margin: 30px 30px 10px 30px;
+}
+
 /*CSS for header*/
 header {
     padding: 30px;
@@ -36,6 +40,35 @@ button {
 
 /*CSS for main*/
 
+.post {
+    color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+    border-radius: 3px;
+    margin: 10px 30px 10px 30px;
+}
+
+.post h2 {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+    font-style: oblique;
+}
+
+.post p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
 /*CSS for footer*/
 footer {
     margin: 0 auto;
@@ -44,8 +77,7 @@ footer {
     width: 100%;
     padding-top: 25px; 
     padding-bottom: 50px;  
-    background-color: var(--aqua);
-}
+ }
 
 footer h5 {
     color: var(--dark-blue);

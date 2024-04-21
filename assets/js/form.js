@@ -13,7 +13,18 @@ submitButton.addEventListener('click', function(event) {
 
     if (userName === '' || title === '' || content === '') {
         completedForm.textContent = 'Please complete the form';
+        /*reload works but message doesn't present
+        window.location.reload();*/
     } else {
         completedForm.textContent = 'Submitted';
     }
+
+    /*JS function for text input
+    function completedForm (event) {
+        userName.addEventListener('input', completedForm);
+        title.addEventListener('input', completedForm);
+        content.addEventListener('input', completedForm);
+    }*/
+
+
 });
