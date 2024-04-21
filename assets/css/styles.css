@@ -16,9 +16,24 @@
 /*CSS for body*/
 body {
     background-color: var(--aqua);
+    color: var(--dark-blue);
     border: 2px solid var(--dark-blue);
     border-radius: 5px;
 }
+
+/*CSS for toggle*/
+.dark-mode {
+    background-color: var(--dark-blue);
+    color: #53EFE9;
+    border: 2px solid var(--aqua)
+}
+
+.dark-mode .post {
+    background-color: var(--dark-blue);
+    color: #53EFE9;
+    border: 2px solid var(--aqua)
+}
+
 
 /*CSS for emoji*/
 .bigger-emoji {
