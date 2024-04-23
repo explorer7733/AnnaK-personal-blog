@@ -1,7 +1,7 @@
 /*JS for toggle*/
 
-document.addEventListener('click', function() {
-    let toggleEmojie = document.getElementById('toggle');
+const toggle = document.querySelector('#toggle')
+toggle.addEventListener('click', function() {
     document.body.classList.toggle('dark-mode', 'dark-mode .post', 'dark-mode footer h5');
 });
 
