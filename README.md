@@ -20,7 +20,7 @@ To review "AK Street Photography Blog", you can click on the deployed link and t
 
 ## Deployed link
 
-[deployed link]()
+[deployed link](https://explorer7733.github.io/AnnaK-personal-blog/)
 
 ## Screenshots
 
